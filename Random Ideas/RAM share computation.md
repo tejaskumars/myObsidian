@@ -1,0 +1,2 @@
+
+Idk if this already exists, I am sure It must be existing, it's exactly like Cluster computing, But this idead just striked into my head, Now imagine we have exhausted our ram, or we need more ram to compute anything, our single laptop cannot afford so much, ususally we tend to go fo cloud solutions, but what if we could use up our friend's laptops, we could aggregate all our friend's laptop's ram into one, and perform the operation

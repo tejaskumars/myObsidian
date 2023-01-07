@@ -1,0 +1,74 @@
+----
+### Concepts 
+- Inode - Inode is a data structure that stores metadata about file and directories without its name and data. Inode is unique for each partition. command :- `ls -i` 
+- Hard link - a link that points to a file's inode instead of file itself. It gets all attributes. 
+- symbolic/soft link points to a file. 
+- #### processes 
+	- three types of processes :- parent/child process, orphan/zombie process , deamon process (system related process , has ? in TTY when `ps -ef` is executed)
+	- `ps -f(full)|PID|-a(all users)|-x(processes without terminals)|-e(extended info)|`  - shows info about the processes.
+	- `kill PID` - kills process with PID.
+	- `kill -19 PID` - force kills the process. 
+	- `killall PIDs` -kills all related processes.
+	- `top` - lists the realtime info of top processes running.
+	- `ps aux` - lists all the processes running atm, but not real time.
+	- `bg [ job ] / bg %19` - resumes the suspended job in background. 
+	- `fg [%job_id]` - resumes the suspended job in foreground .
+	- `nice [-nice value]` - starts a new process with a priority(nice value) that ranges from -20 to 19, -20 is the highest priority. 
+	- `renice [-nice value] [process id]` - change the priority of already existing process.
+	- `df` - shows the amount of disk space available and used by FS. 
+	- `free` - shows the used and available space in physical, swap memory and buffers. 
+
+- #### services
+	- service is a special type of process that runs in bg and does specific tasks. 
+	- `sudo service <service name> start/stop`/restart - to start or stop or restart the service 
+	- `sudo systemctl start/stop/restart <service name>` - alternative way. 
+- virtual hosts are  the subdomains, where you can have different domain names and can run as many websites as you want. Creating a virtual host involves creating a config file in a server, and adding the domain and ip address in the hosts file. 
+- `#!` - shebang, used in the start of linux scripts , the shebang is follwed by interpreter path. It's a convention not a rule to recognise what interpreter should run the prgrm. 
+- 
+### Commands 
+
+- `pwd` - present working directory 
+- `ls --help`  - there are lot of things you can do with files, like viweing permissions, sorting etc. 
+- sudo stands for super user do. 
+- ``!!`` - execute previous command
+- `sudo su `  - change to root account whch has all the permissions 
+- `su <username>` - change to username account 
+- `sudo apt-cache search <appname>*` - returns the wildcard search of appname that is in repo
+- ``sudo apt-cache policy <appname>`` - returns if the app is installed or not
+- #### file/dir permissions 
+	- permissions :- read, write , execute 
+	- ownership :- user, group, other(all users of the system)
+	- `sudo chown user:group <filename>` - changes the owner and group of the file. 
+	- permissions in absolute mode :- w - 2 , r - 4 , x - 1 , 6 - rw , 3 - wx , 5 - rx , 7 - rwx
+	- `sudo chmod 644 <filename>` - chnages the permissions of file , r-w for user , r for group and r for public . 
+	- permissions in symblic mode :- u - user , g - group , o - other , a - all , + - add permissions , - - remove permissions , = - overwrite the permissions. 
+	- `sudo o-rw+x, g-x+r , o-r+w <filename>` - changes permissions respectively.  
+	- `sudo chmod -R user:group <directory>` - changes the ownership of all files inside directory, if R is not specified, it changes the ownership of dir only and not files.
+	- `chgrp <grp-name> <filename>` - to change only grp 
+	- `chown <username> <filename>` - to change only owner . 
+	- `id -gn <username>` - finds the users/owners primary group 
+	- 
+- `df -hi` - displays inodes infomation 
+- `touch <filename>` - create the file but doesn't open it unlike `nano` 
+- `cp/mv <source> <destination>` - copies/moves(renames) files from src to dest, use * to copy all in the dir. 
+- `rm -rf <dir>` - removes the directory. 
+- #### find command 
+	- `find <dir>/. -type f -name <filename>` - searches for file with filename in the specified dir, if it's . , it means current directory. there are many options to play around with. 
+	- `find . -type -f -size +10k` - finds files with size > 10kb . 
+	- `find -maxdepth 1 -type d -iname "file*"`  - searches for directories starting with name file with maxdepth of 1, with cases being ignored. 
+	- `find . -type f size -1M -exec grep -n -i "text" {} + | tee abc.txt ` - finds the files below 1MB in the dir, and executes grep search on them, later print the results as well as write it into the file abc.txt . 
+- `grep -n -i "text-to-search" <filenames>` - returns the line number and occurences of text in a particular file or files , can be used with `find` cmd for better searches. 
+- `tar -xuf <tar filename>` - extracts the tar file. 
+- `sudo adduser <username>` - to add an user to the linux system 
+- `sudo adduser <username> sudo` - adds new user to the sudoers group, has all permissions of root.
+- `sudo deluser <username>` - deletes the user account. 
+- `sudo passwd <username>` - for changing the password of an user. 
+- #### Networking 
+	-  `ping <ip address/domain>` - to check if the given web adress is connected to your computer 
+	- `ifconfig` - details of our network configurations  
+	- All networking concepts can be found in [[Networking]]
+	- ###### tcpdump 
+		- `sudo tcpdump -c 10 ` - captures latest 10 packets and displays info  
+		- `sudo tcpdump -c 10 -A` - captures and displays packet info in ASCII 
+		-  `sudo tcpdump -c 5 -i (eth0/lo/wlo1)` - captures packets of only a specific interface.
+		- 

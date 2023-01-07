@@ -1,0 +1,4 @@
+- Spread butter on bread, not legs on the bed
+- Intimate + dating = intimidating
+- I'm so broke that I can't even pay attention
+- 

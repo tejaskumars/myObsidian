@@ -1,0 +1,24 @@
+- Being busy is not being productive 
+- It is hard to engage in deep work in the absence of clear goals, most employees arm themselves with self-preserving shallow work. 
+- Deep work entails single task with ultimate focus to achieve peak productivity in a certain time with zero distractions.  
+- Deep work is done where the individual uses their cognitive ablities to the fullest , where as the non cognitive works are shallow, and need little or no focus. 
+- Doing shallow works like replying to floating notifications, and checking gmail once in every two  minutes makes you feel you've done something but in relaity NO! They didn't add any value. 
+- Shallow work are easy to replicate where as deep work is hard to reproduce. 
+- The two core abilties to thrive in the modern day 
+	- Ability to quickly learn and master hard things. 
+	- ability to PRODUCE at elite level, both quality and speed. 
+- Technology is ever changing  and overtime you will have to learn,, unlearn and relearn a never ending languages quickly. 
+- Attention residue :- when you switch from task A to task B, part of attention still lies in Task A thus affecting the attention power and productivity achieved in task B. Therefore, work on one task for longer hours deeply with 0 distractions. 
+- The rules of deep work - work deeply, emrace boredom, quit social media, drain the shallows. 
+- Embrace boredom, sit there quietly. You are never bored. Find out a thing to do, but deeply.
+- Social media is shallow living, they offer nothing in return for the amount of time you spend in. 
+- Create rituals and routines to make deep work easier and second nature for you. 
+- Drain the shallows, have a specific time for using phone, replying people. etc. 
+- Have a concentration excericise - focus on candle, meditation, plank etc. Train your body and brain. 
+- Some ways to incorporate deep work into the life : monastic - be like a monk, remove all the distractions from the environment you're working in, bimodal - have two different times for two different things, rhythmic - have a particular time in  a day or week for deep work, journalistic - fitting in anytime in a day, be like a journalist who writes up something and publish before the deadline.
+- It is very important to take rest or breaks regularly to recharge your brain as the energy spent during the deep work is finite. Cut off from everything professional and recharge yourself for next day. During the breaks, don't do things that'll consume your mental ability or shallow work for an instance. Instead, take a stroll, have a conversation, listen to music. 
+- The less clutter the mind is, the more ability the brain gets to efficiently use the resources. 
+- Productivity is more of making the most of the hours worked than working for more no of hours. 
+- Deep work is a pain the neck, it is a war. Take it as a challenge and head on. 
+- Next time, when you're ought to do some deep work, switch off all the social media, make sure to finish one task before jumping into another one. 
+- Reap maximum out of minimal hours spent, and maximum recovery in the down time. 

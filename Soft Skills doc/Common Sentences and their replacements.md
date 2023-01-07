@@ -1,0 +1,10 @@
+- Are we meeting tomorrow? 
+	- Hello, I hope we're still on for tomorrow's meeting, lmk if there is any change of plan.
+	- Are we all good for tomorrow?
+- That's awesome 
+	- Supercalifragilisticexpialidocious 
+- I am from Bengaluru. 
+	- profession :- I am from Bengaluru, silicon valley of india.
+	- friendly :- I am from Bengaluru, garden city of india. 
+	- if meeting a new person, follow up with "have you ever been to bengaluru", and tell them about thee famous place they have to go in thier next visit to Bengaluru. 
+- 
